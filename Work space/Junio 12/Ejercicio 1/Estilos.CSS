@@ -1,0 +1,33 @@
+#titulo1 {
+    color: aquamarine;
+    background-color: blueviolet;
+}
+#titulo2 {
+    color: black;
+    background-color: blanchedalmond;
+}
+#titulo3 {
+    color: red;
+    background-color: aqua;
+}
+#titulo4 {
+    color: blue;
+    background-color: black;
+}
+.clase1{
+    display: inline-block;
+color: aqua;
+background-color: blue;
+}
+.clase1 {
+    display: inline-block;
+    color: brown;
+    background-color: blue;
+}
+.clase1 { 
+    width: 30%;
+    height: 20%;
+    display: inline-block;
+    color: blueviolet;
+    background-color: aquamarine;
+}
