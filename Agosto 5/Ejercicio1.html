@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <title>Ejercicio bootstrap</title>
+</head>
+
+<body style="background-color: darkslategray;">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Elecrticos Unidos</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portafolio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Servicios
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Instalacion Electrica</a></li>
+                                    <li><a class="dropdown-item" href="#">Reparacion De Daños</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Servicios A La Medida </a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagen1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="accordion" id="accordionExample" data-bs-theme="dark">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Su Mejor Servicio
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            ¿Necesitas optimizar el consumo energético de tu hogar o empresa? En [Electricos unidos], te
+                            ayudamos a ahorrar con soluciones eléctricas eficientes y sostenibles. Desde la instalación
+                            de sistemas de iluminación LED hasta la implementación de tecnologías de ahorro energético,
+                            te ofrecemos asesoría personalizada y resultados garantizados. ¡Contacta con nosotros y
+                            descubre cómo podemos reducir tus costos y cuidar el medio ambiente!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Llegamos Donde Sea
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            [Electricos unidos] ofrece servicios eléctricos completos, incluyendo: instalaciones nuevas,
+                            reparaciones, mantenimiento preventivo, diseño de sistemas eléctricos, proyectos de
+                            iluminación y mucho más. Contamos con un equipo de profesionales altamente calificados y con
+                            amplia experiencia en el sector. ¡Confía en nosotros para cualquier necesidad eléctrica que
+                            tengas!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Rapido Y Eficaz
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Tu seguridad es nuestra prioridad! En [Electricos Unidos], nos especializamos en
+                            instalaciones eléctricas seguras y confiables. Ya sea para tu hogar o negocio, te ofrecemos
+                            soluciones a medida con la más alta calidad y cumpliendo con todas las normativas vigentes.
+                            ¡No arriesgues tu bienestar, confía en los expertos! Solicita una consulta gratuita y
+                            descubre cómo podemos protegerte.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="empleado1.jpg_large" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> Para un instalador eléctrico
+Juan es un instalador eléctrico altamente capacitado con más de 10 años de experiencia en la instalación y mantenimiento de sistemas eléctricos residenciales y comerciales. Su compromiso con la seguridad y la calidad garantiza que cada proyecto se realice de manera eficiente y conforme a las normas vigentes. Juan se especializa en cableado, montaje de tableros eléctricos y conexión de sistemas automatizados.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="empleado2.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Para un técnico en mantenimiento eléctrico
+Pedro trabaja como técnica en mantenimiento eléctrico, encargándose de la supervisión y reparación de equipos eléctricos industriales. Su habilidad para diagnosticar problemas complejos y su rapidez en la resolución de fallas minimizan el tiempo de inactividad en las plantas donde presta servicio. María se asegura de que todas las instalaciones cumplan con los estándares de seguridad y funcionen en óptimas condiciones.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="empleado3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Para un electricista de obra
+Carlos es un electricista de obra con sólida experiencia en proyectos de construcción de viviendas y edificios. Se especializa en la instalación de sistemas eléctricos desde cero, incluyendo el tendido de cables, conexión de tomas, interruptores y luminarias, siempre respetando los planos y regulaciones técnicas. Carlos destaca por su capacidad para trabajar en equipo y cumplir con los plazos establecidos.</p>
+                    </div>
+                </div>
+            </div>
+<div class="row"> 
+<div class="card">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <figure>
+      <blockquote class="blockquote">
+        <p>Eléctricos Unidos – Soluciones Eléctricas de Confianza</p>
+<p>📍 Dirección: Calle 45 #18-22, Barrio El Progreso, Medellín, Colombia</p>
+<p>📞 Teléfono: (604) 589-3347 | 📱 WhatsApp: +57 312 456 7890</p>
+<p>📧 Correo: contacto@electricosunidos.com</p>
+<p>🕒 Horario: Lunes a Sábado – 7:00 a.m. a 6:00 p.m.</p>
+<p>📱 Síguenos: [Facebook] [Instagram] [WhatsApp]</p>
+
+© 2025 Eléctricos Unidos. Todos los derechos reservados.
+Atención rápida, servicio garantizado y cobertura donde nos necesites.
+      </blockquote>
+      <figcaption class="blSomeone famous inockquote-footer">
+      </figcaption>
+    </figure>
+  </div>
+</div>
+</div>
+        </div>
+</body>
+
+</html>
