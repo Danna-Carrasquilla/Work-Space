@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <title>Ejercicio bootstrap</title>
+</head>
+
+<body style= "background-color: gray;">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Aprende Online</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portafolio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Servicios
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Clases De Ingles</a></li>
+                                    <li><a class="dropdown-item" href="#">Cultura General</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Clases De Matematicas</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Imagen1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Imagen2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Imagen3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="accordion" id="accordionExample" data-bs-theme="dark">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Su Mejor Servicio
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Se identifica que un alto porcentaje de la población presenta desconocimiento en algunos temas de cultura general y temas de matemáticas e inglés, a los estudiantes se les dificulta la comprensión de conceptos básicos</strong>
+                            A muchos estudiantes se les dificulta comprender conceptos comunes sobre la matemática, entre ellos también dificultades para la resolución de problemas, el cuál puede ser un desafío para muchos
+                            En cuanto al inglés, gran dificultad con la escritura,  ya que generalmente no hay familiaridad con las convenciones y estructuras del lenguaje. 
+                            Electricos Unidos Tu energía, en buenas manos.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           Facil De Aprender
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Cultura Geneal</strong> En la actualidad se han incrementado los estudios dedicados al tema de la formación de cultura general sobre matemáticas e inglés pues esta se visualiza como una rama importante ya que todos los días las personas buscan conocer y visitar la cultura nacional e internacional. La cultura general es un vasto conjunto de conocimientos que abarca 
+
+                            Electricos Unidos – Electricidad sin límites.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Rapido Y Eficáz
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>¡Servicio eléctrico rápido cuando más lo necesitas! </strong> En Eletricos
+                                Unidos sabemos que una falla eléctrica no puede esperar. Por eso, nuestro equipo llega
+                                rápido, trabaja eficiente y soluciona el problema en tiempo récord.
+
+                                ✅ Atención inmediata
+                                ✅ Respuesta rápida en cualquier zona
+                                ✅ Reparaciones seguras y duraderas
+
+                                No pierdas tiempo ni energía, confía en los expertos que están siempre listos para
+                                ayudarte… ¡Rápido y bien hecho!
+
+                                📞 Contáctanos y recibe servicio eléctrico exprés.
+                                🌐 [Tu sitio web o redes sociales]
+
+                                Electricos Unidos– Tu energía, sin esperas.
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imgJH.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">jesus hernando</h5>
+                            <p class="card-text">Con más de 15 años de experiencia en el rubro eléctrico, jesus es
+                                experto en instalaciones industriales, sistemas trifásicos y resolución de fallas
+                                complejas. Su enfoque en la seguridad y la precisión lo convierte en un referente dentro
+                                del equipo. Siempre está dispuesto a compartir su conocimiento y garantizar que cada
+                                trabajo se haga bien desde el inicio.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imgniño.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">luis villa</h5>
+                            <p class="card-text">luis villa es el encargado de atender urgencias eléctricas en hogares,
+                                comercios y oficinas. Ágil, puntual y resolutivo, destaca por su capacidad para
+                                identificar y solucionar fallas en tiempo récord. Gracias a su actitud proactiva y trato
+                                amable, es muy valorado por los clientes.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imgchanty.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">moises de la cruz</h5>
+                            <p class="card-text">Ingeniero electricista con formación en gestión de proyectos, moises
+                                organiza las rutas, coordina los equipos y supervisa que cada servicio cumpla con los
+                                más altos estándares. Su objetivo es asegurar rapidez sin sacrificar calidad. Bajo su
+                                liderazgo, los trabajos se entregan en tiempo y forma.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                       
+                            </div>
+                        </div>
+                         <div class="row"></div>
+                        <div class="card">
+                            <div class="card-header">
+                            </div>
+                            <div class="card-body">
+                                <figure>
+                                    <blockquote class="blockquote">
+                                        <p>Eléctricos Unidos – Soluciones Eléctricas de Confianza</p>
+                                        <p>📍 Dirección: Calle 45 #18-22, Barrio El Progreso, Medellín, Colombia</p>
+                                        <p>📞 Teléfono: (604) 589-3347 | 📱 WhatsApp:+57 312 456 789</p>
+                                        <p>📧 Correo: contacto@electricosunidos.com</p>
+                                        <p>🕒 Horario: Lunes a Sábado – 7:00 a.m. a 6:00 p.m.</p>
+                                        <p>📱 Síguenos: [Facebook] [Instagram] [WhatsApp]</p>
+
+                                        © 2025 Eléctricos Unidos. Todos los derechos reservados.
+                                        Atención rápida, servicio garantizado y cobertura donde nos necesites.
+                                    </blockquote>
+                                    <figcaption class="blSomeone famous inockquote-footer">
+                                    </figcaption>
+                                </figure>
+                    </div>
+</body>
+
+</html>
